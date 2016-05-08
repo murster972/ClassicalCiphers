@@ -1,0 +1,32 @@
+Polybus Square:
+{'V': 'XF', 'I': 'FX', 'G': 'AD', 'J': 'XG', 'Y': 'FG', '8': 'AF', '0': 'GV', 'O': 'DG', 'T': 'GA', 'D': 'XV', 'W': 'VG', '7': 'XX', 'E': 'GX', 'L': 'DF', 'U': 'AV', 'Q': 'DD', '6': 'XA', '4': 'VA', 'R': 'VD', 'X': 'GF', 'C': 'VF', 'M': 'DV', 'B': 'GD', '9': 'FD', '5': 'AG', 'N': 'VX', 'F': 'GG', 'Z': 'XD', '2': 'FA', 'P': 'AX', '1': 'DX', 'H': 'VV', 'S': 'DA', 'K': 'FV', '3': 'FF', 'A': 'AA'}
+
+plaintext:
+testmessage
+
+ciphertext:
+ADA ADD DXA GVA GADX XGA GAG
+
+Key:
+testkey
+
+//map key chars to index
+(t, 0), (e, 1), (s, 2), (t, 3), (k, 4), (e, 5), (y, 6)
+
+E E K S T T Y
+1 5 4 2 0 3 6
+A A D G G X G
+D D X V A G A
+A D A A D A G
+        X
+
+
+T E S T K E Y
+0 1 2 3 4 5 6
+G A G X D A G
+A D V G X D A
+D A A A A D G
+A
+
+GA GX DA GA DV GX DA DA AA AD GA
+T  E  S  T  M  E  S  S  A  G  T
